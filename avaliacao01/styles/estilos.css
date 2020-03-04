@@ -1,0 +1,36 @@
+.leituraDados {
+  font-size: 120%;
+  width: 50%;
+  border: solid 1px grey;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 1px 1px 2px grey;
+}
+.leituraDados * {
+  display: block;
+  padding-bottom: 10px;
+}
+.leituraDados input {
+  margin-bottom: 20px;
+  font-size: 110%;
+  height: 15px;
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+  padding: 7px;
+}
+.leituraDados button {
+  margin-top: 20px;
+  font-size: 130%;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#mensagem {
+  padding: 30px;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=estilos.css.map */

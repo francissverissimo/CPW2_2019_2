@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "decorativa";
+  src: url(../fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: "padrao";
+  src: url(../fonts/YesevaOne-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+  display: inline;
+}
+
+.banner {
+  font-size: 140%;
+  background-color: #2B2C28;
+  padding: 40px 20px;
+  margin-bottom: 10px;
+  border-bottom: 30px solid #1B998B;
+  box-shadow: 0px 1px #dbd9d9;
+}
+
+.banner * {
+  display: inline;
+  vertical-align: middle;
+}
+
+.banner img {
+  margin-right: 20px;
+}
+.banner h1 {
+  font-family: "decorativa";
+  color: #2B2C28;
+  text-shadow: 
+  0px 1px #1B998B, -0px -1px #1B998B,
+  1px 0px #1B998B, -1px -0px #1B998B,
+  0px 2px #1B998B, -0px -2px #1B998B,
+  2px 0px #1B998B, -2px -0px #1B998B;
+}
+
+#formularioItem {
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 10px 10px #1B998B, -5px -5px #2B2C28;
+}
+
+#formularioItem label,
+#formularioItem input,
+#formularioItem select,
+#formularioItem button {
+  display: block;
+  font-family: "padrao";
+}
+
+#formularioItem button {
+  background-color: #2B2C28;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#formularioItem label {
+  margin-top: 20px;
+}
+
+#formularioItem button:hover {
+  color: #1B998B;
+}
+
+#formularioItem #quantidade,
+#formularioItem #unidadeDeMedida {
+  display: inline-block;
+}
+
+#formularioItem #unidadeDeMedida {
+  font-family: "padrao";
+}
+
+#formularioItem select {
+  width: 95%;
+  max-width: 300px;
+}
+
+#formularioItem select:disabled {
+  color: gray;
+}
+
+#formularioItem select,
+#formularioItem input {
+  margin-bottom: 10px;
+  height: 30px;
+  font-size: 100%;
+  border-radius: 5px;
+  border: 1px solid #0c302e;
+  padding-left: 5px;
+}
+
+#formularioItem select[type=number],
+#formularioItem input[type=number] {
+  width: 95%;
+  max-width: 80px;
+}
+
+fieldset {
+  margin: 20px;
+}
+
+#conteudo {
+  padding: 30px;
+  margin: auto;
+}
+
+#conteudo #tabelaCompras {
+  padding: 10px;
+  width: 90%;
+}
+
+#conteudo #tabelaCompras table {
+  border-collapse: collapse;
+  width: 50%;
+  font-family: "padrao";
+}
+
+#conteudo #tabelaCompras table thead {
+  background-color: #f7fdff;
+  color: white;
+}
+
+#conteudo #tabelaCompras table tr:hover td {
+  background-color: #d7f2ec;
+}
+
+#conteudo #tabelaCompras table tr:nth-child(even) {
+  background-color: #e5e2ec;
+}
+
+#conteudo #tabelaCompras table tr td {
+  font-size: 90%;
+}
+
+#conteudo #tabelaCompras table tr td:first-child {
+  width: 10%;
+}
+
+#conteudo #tabelaCompras table tr td:last-child {
+  width: 10%;
+}
+
+#conteudo #tabelaCompras table tr th,
+#conteudo #tabelaCompras table tr td {
+  text-align: left;
+  padding: 5px 0px;
+}
+
+#conteudo #tabelaCompras table tr th:first-child,
+#conteudo #tabelaCompras table tr td:first-child {
+  text-align: left;
+  padding-left: 5px;
+}
+
+#conteudo #tabelaCompras table tr th:last-child,
+#conteudo #tabelaCompras table tr td:last-child {
+  text-align: right;
+  padding-right: 5px;
+}
+
+#conteudo #tabelaCompras table tr th img,
+#conteudo #tabelaCompras table tr td img {
+  width: 90%;
+  margin: 0px;
+}
+
+#conteudo #tabelaCompras img {
+  margin-left: 40px;
+  display: block;
+  width: 20%;
+}
+
+#conteudo #tabelaCompras span {
+  font-family: "padrao";
+}
+
+#conteudo #cardsCompras {
+  display: none;
+}
+
+#conteudo #cardsCompras #cardConteudo {
+  display: table;
+  box-shadow: 2px 2px 5px #ededee, -1px -1px 3px #ededee;
+  border-radius: 5px;
+  margin: 0px auto 10px auto;
+  width: 90%;
+}
+
+#conteudo #cardsCompras #cardConteudo .esquerda,
+#conteudo #cardsCompras #cardConteudo .direita {
+  width: 15%;
+  display: table-cell;
+}
+
+#conteudo #cardsCompras #cardConteudo .direita {
+  text-align: right;
+}
+
+#conteudo #cardsCompras #cardConteudo span {
+  vertical-align: middle;
+  font-family: "padrao";
+  font-size: 150%;
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+}
+
+#conteudo #cardsCompras a img {
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+}
+
+#conteudo #filtro {
+  margin: 30px 0px 10px 0px;
+  display: block;
+  border-radius: 20px;
+  width: 40%;
+  height: 30px;
+  border: 1px solid #cccccc;
+  outline: none;
+  padding: 0px 20px 0px 20px;
+  font-size: 90%;
+}
+
+#conteudo #filtro:hover {
+  border: none;
+  box-shadow: 2px 2px 5px #cccccc, -1px -1px 3px #cccccc;
+  margin-bottom: 12px;
+}
+
+.rodape {
+  font-family: 'padrao';
+  background-color: #2B2C28;
+  color: #1B998B;
+  padding: 30px;
+  border-top: 20px solid #1B998B;
+}
+
+.rodape h3 span {
+  text-shadow: 3px 3px black;
+  font-size: 140%;
+  font-family: 'decorativa';
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #conteudo #cardsCompras {
+    display: block;
+  }
+
+  #conteudo #cardsCompras span {
+    font-family: "padrao";
+  }
+
+  #conteudo #cardsCompras img {
+    border: none;
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+  }
+
+  #conteudo #tabelaCompras {
+    display: none;
+  }
+
+  #conteudo #filtro {
+    width: 90%;
+  }
+}

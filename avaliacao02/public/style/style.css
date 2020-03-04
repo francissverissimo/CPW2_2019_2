@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "lobster";
+    src: url(../font/Lobster-Regular.ttf);
+}
+
+body {
+    font-family: "Lobster";
+    width: 50%;
+}
+
+a {
+    color: #444444;
+    text-decoration: none;
+    font-size: 140%;
+}
+
+a:hover {
+    color: #aaaaaa;
+}
+
+.leituraDados {
+    padding: 30px;
+    border: groove #acacac 20px;
+    margin-bottom: 20px;
+}
+
+.leituraDados * {
+    font-family: "Lobster";
+    display: block;
+    margin-bottom: 20px;
+    font-size: 140%;
+}
+
+.leituraDados input {
+    font-size: 110%;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    padding: 10px;
+}
+
+.leituraDados button {
+    font-size: 120%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#mensagem,
+#mensagem2 {
+    font-family: "Lobster";
+    color: #252525;
+    font-size: 140%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+p {
+    color: #424242;
+    background-color: #cccccc;
+    border: groove #acacac 15px;
+    padding: 10px;
+    font-size: 120%;
+}
